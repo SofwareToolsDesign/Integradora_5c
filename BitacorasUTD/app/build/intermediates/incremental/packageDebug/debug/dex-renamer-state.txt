@@ -1,4 +1,0 @@
-#Thu Feb 08 11:46:27 CST 2018
-base.0=C\:\\Users\\Abiezer\\AndroidStudioProjects\\BitacorasUTD\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex
