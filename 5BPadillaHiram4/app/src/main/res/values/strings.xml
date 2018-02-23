@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">5BPadillaHiram4</string>
+    <string name="men">Menú</string>
+    <string name="sms">SMS</string>
+    <string name="gps">GPS</string>
+    <string name="login">Login</string>
+    <string name="foto">Foto</string>
+    <string name="salir">Salir</string>
+    <string name="enviar_mensaje_sms_individual">Enviar mensaje SMS individual</string>
+    <string name="para">Para:</string>
+    <string name="msg">Msg:</string>
+    <string name="enviar">Enviar</string>
+    <string name="borrar">Borrar</string>
+    <string name="agenda">Agenda</string>
+    <string name="enviar_sms_grupal">Enviar sms grupal</string>
+</resources>
