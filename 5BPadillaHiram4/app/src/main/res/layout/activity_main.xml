@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.032" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnsms"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:text="@string/sms"
@@ -32,7 +32,7 @@
         app:layout_constraintVertical_bias="0.167" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btngps"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:text="@string/gps"
@@ -43,10 +43,10 @@
         app:layout_constraintVertical_bias="0.35" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnlogin"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
-        android:text="@string/login"
+        android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -54,7 +54,7 @@
         app:layout_constraintVertical_bias="0.53" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnfoto"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:text="@string/foto"
@@ -65,7 +65,7 @@
         app:layout_constraintVertical_bias="0.713" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnsalir"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:text="@string/salir"

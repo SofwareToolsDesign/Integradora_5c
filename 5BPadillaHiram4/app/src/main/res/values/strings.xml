@@ -2,8 +2,6 @@
     <string name="app_name">5BPadillaHiram4</string>
     <string name="men">Menú</string>
     <string name="sms">SMS</string>
-    <string name="gps">GPS</string>
-    <string name="login">Login</string>
     <string name="foto">Foto</string>
     <string name="salir">Salir</string>
     <string name="enviar_mensaje_sms_individual">Enviar mensaje SMS individual</string>
@@ -13,4 +11,10 @@
     <string name="borrar">Borrar</string>
     <string name="agenda">Agenda</string>
     <string name="enviar_sms_grupal">Enviar sms grupal</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="gps">GPS</string>
+    <string name="mapa">Mapa</string>
+    <string name="posici_n">Posición</string>
+    <string name="user_image">User image</string>
+    <string name="login">Login</string>
 </resources>
