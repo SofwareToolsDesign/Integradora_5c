@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_inicio"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/navigation_qr"
+        android:icon="@drawable/ic_codigo_qr"
+        android:title="Escáner Qr" />
+
+    <item
+        android:id="@+id/navigation_bitacora"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="Bitácora" />
+
+    <item
+        android:id="@+id/navigation_cuenta"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="Cuenta"/>
+
+</menu>

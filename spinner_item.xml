@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/utd_green">
+
+    <ImageView
+        android:id="@+id/ivmexicofl"
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:layout_height="50dp"
+        android:src="@drawable/mexico"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/tvmexicolang"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="50dp"
+        android:gravity="left"
+        android:text="Español(México)"
+        android:textColor="@color/md_white_1000"
+        android:textSize="18sp"
+        android:padding="10dp"/>
+</LinearLayout>

@@ -1,0 +1,202 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_100"
+    tools:context="com.stdesign.bitacorasutd.fragments.BitacoraFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/tabbi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Bitácora de laboratorio"
+                android:textColor="@color/md_grey_900"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:padding="15dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <ImageButton
+                        android:id="@+id/ibfecha"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/date"
+                        android:layout_marginRight="10dp"/>
+                    <EditText
+                        android:id="@+id/etfecha"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Fecha"
+                        android:inputType="none"
+                        android:background="@color/md_white_1000"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <ImageButton
+                        android:id="@+id/ibhora"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/alarm_clock"
+                        android:layout_marginRight="10dp"/>
+                    <EditText
+                        android:id="@+id/ethora"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:hint="Hora"
+                        android:inputType="none"
+                        android:background="@color/md_white_1000"/>
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/etlab"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:background="@color/md_white_1000"
+                    android:hint="Laboratorio"
+                    android:inputType="number"
+                    android:layout_margin="5dp"/>
+
+                <EditText
+                    android:id="@+id/etmateria"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:background="@color/md_white_1000"
+                    android:hint="Materia"
+                    android:inputType="textCapCharacters"
+                    android:layout_margin="5dp"/>
+
+                <EditText
+                    android:id="@+id/etgrupo"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:background="@color/md_white_1000"
+                    android:hint="Grupo"
+                    android:inputType="textCapCharacters"
+                    android:layout_margin="5dp"/>
+
+                <EditText
+                    android:id="@+id/etpractica"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint="Práctica"
+                    android:inputType="textCapCharacters"
+                    android:layout_margin="5dp"
+                    android:background="@color/md_white_1000"/>
+
+                <EditText
+                    android:id="@+id/etmaestro"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:ems="10"
+                    android:hint="Maestro"
+                    android:inputType="number"
+                    android:background="@color/md_white_1000"/>
+
+                <EditText
+                    android:id="@+id/etequipou"
+                    android:layout_height="40dp"
+                    android:layout_width="match_parent"
+                    android:ems="10"
+                    android:hint="Equipo usado"
+                    android:inputType="textCapCharacters"
+                    android:layout_margin="5dp"
+                    android:background="@color/md_white_1000"/>
+
+                <TextView
+                    android:id="@+id/tvobservaciones"
+                    android:layout_height="40dp"
+                    android:layout_width="match_parent"
+                    android:ems="10"
+                    android:text="Observaciones:"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical|left"
+                    android:layout_margin="5dp"/>
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/rbobsi"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Sí"
+                            android:checked="false"/>
+                        <RadioButton
+                            android:id="@+id/rbobno"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="No"
+                            android:checked="true"/>
+                    </LinearLayout>
+
+                </RadioGroup>
+                <EditText
+                    android:id="@+id/etobserv"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:hint="Observaciones"
+                    android:textColor="@color/md_grey_900"
+                    android:inputType="textCapCharacters"
+                    android:layout_margin="5dp"
+                    android:background="@color/md_white_1000"/>
+
+                <Button
+                    android:id="@+id/btnbitregistrar"
+                    android:layout_width="200dp"
+                    android:layout_height="55dp"
+                    android:text="Registrar"
+                    android:textSize="17sp"
+                    android:textColor="@color/md_white_1000"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@color/utd_green"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_white_1000"
+    tools:context="com.stdesign.bitacorasutd.fragments.CuentaFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Cuenta"
+                android:textColor="@color/md_grey_800"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:layout_gravity="center"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"/>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="212dp"
+                android:layout_height="198dp"
+                android:contentDescription="img_user"
+                android:layout_gravity="center"
+                android:src="@drawable/greyuser"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usuario:"
+                android:textColor="@color/md_black_1000"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/tvusuario"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/grey_button"
+                android:text="invitado"
+                android:gravity="center"
+                android:textColor="@color/md_black_1000"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/splenguaje"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="25dp">
+                <ImageView
+                    android:id="@+id/ivcerrarsesion"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/logout"/>
+                <TextView
+                    android:id="@+id/tvcerrarsesion"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="Cerrar sesión"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="18sp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
